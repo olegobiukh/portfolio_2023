@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+@import "./utils/styles/scss/mixins.scss";
+
+iframe {
+  display: none;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background: #2a2626;
+  overflow-x: hidden;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+.container {
+  @include tablet {
+    padding: 10px 35px;
+  }
+  display: grid;
+  align-content: baseline;
+  gap: 20px;
+  min-height: 100vh;
+  padding: 16px 24px;
+  background-color: rgba(0, 0, 0, 0.65);
+}
