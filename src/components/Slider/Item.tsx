@@ -12,13 +12,15 @@ const List1 = ({ title, demo, gh, gif, skills, setTheme }: List1Props) => (
         <a className="link link--demo" href={demo} target="_blank"></a>
         <a className="link link--gh" href={gh} target="_blank"></a>
       </div>
-      <p className="item__title">{title}</p>
+      <a className="item__title" href={demo} target="_blank">
+        {title}
+      </a>
     </div>
     <div className="skills">
       {skills.map((item: { id: number; color: string; title: string }) => (
-        <div key={item.id} className={`skill skill--${item.color}`}>
-          {item.title}
-        </div>
+          <div key={item.id} className={`skill skill--${item.color}`}>
+            {item.title}
+          </div>
       ))}
     </div>
   </div>

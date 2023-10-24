@@ -16,6 +16,10 @@
     display: inline-block;
     font-size: 20px;
     text-transform: uppercase;
+    text-decoration: none;
+    &:hover {
+      font-style: italic;
+    }
   }
 }
 
