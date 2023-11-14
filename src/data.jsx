@@ -16,6 +16,8 @@ const gifDia =
   "https://raw.githubusercontent.com/olegobiukh/other/master/portfolio2023/dia.gif";
 const gifBarleyBrick =
   "https://raw.githubusercontent.com/olegobiukh/other/master/portfolio2023/barley-brick.gif";
+const gifNUsers =
+  "https://raw.githubusercontent.com/olegobiukh/other/master/portfolio2023/next-users.gif";
 
 export const data: Project[] = [
   {
@@ -34,6 +36,25 @@ export const data: Project[] = [
         id: 1,
         color: "red",
         title: "SCSS",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Users",
+    demo: "https://next-users-bice.vercel.app/",
+    gh: "https://github.com/olegobiukh/next-users",
+    gif: gifNothing,
+    skills: [
+      {
+        id: 0,
+        color: "blue",
+        title: "Next",
+      },
+      {
+        id: 1,
+        color: "red",
+        title: "Tailwind",
       },
     ],
   },
