@@ -18,6 +18,8 @@ const gifBarleyBrick =
   "https://raw.githubusercontent.com/olegobiukh/other/master/portfolio2023/barley-brick.gif";
 const gifNUsers =
   "https://raw.githubusercontent.com/olegobiukh/other/master/portfolio2023/next-users.gif";
+const gifFSMS =
+  "https://raw.githubusercontent.com/olegobiukh/other/master/portfolio2023/fs-marketstore.gif";
 
 export const data: Project[] = [
   {
@@ -40,11 +42,30 @@ export const data: Project[] = [
     ],
   },
   {
-    id: 3,
+    id: 8,
     title: "Users",
     demo: "https://next-users-bice.vercel.app/",
     gh: "https://github.com/olegobiukh/next-users",
-    gif: gifNothing,
+    gif: gifNUsers,
+    skills: [
+      {
+        id: 0,
+        color: "blue",
+        title: "React",
+      },
+      {
+        id: 1,
+        color: "violet",
+        title: "MySQL",
+      },
+    ],
+  },
+  {
+    id: 9,
+    title: "FS marketstore",
+    demo: "",
+    gh: "https://github.com/olegobiukh/fs-marketstore",
+    gif: gifFSMS,
     skills: [
       {
         id: 0,
