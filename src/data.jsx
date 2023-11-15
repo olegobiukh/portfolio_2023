@@ -51,7 +51,7 @@ export const data: Project[] = [
       {
         id: 0,
         color: "blue",
-        title: "React",
+        title: "Next",
       },
       {
         id: 1,
@@ -70,7 +70,7 @@ export const data: Project[] = [
       {
         id: 0,
         color: "blue",
-        title: "Next",
+        title: "React",
       },
       {
         id: 1,
