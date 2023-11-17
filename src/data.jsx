@@ -55,8 +55,8 @@ export const data: Project[] = [
       },
       {
         id: 1,
-        color: "violet",
-        title: "MySQL",
+        color: "red",
+        title: "Tailwind",
       },
     ],
   },
@@ -74,8 +74,8 @@ export const data: Project[] = [
       },
       {
         id: 1,
-        color: "red",
-        title: "Tailwind",
+        color: "violet",
+        title: "MySQL",
       },
     ],
   },
